@@ -4,7 +4,7 @@ import subprocess
 
 while True:
     # Get the current stock market futures
-    stock_ticker = 'aapl'
+    stock_ticker = 'AAPL'
     stock_info = yf.Ticker(stock_ticker).info
     current_futures = stock_info['regularMarketPrice']
 
